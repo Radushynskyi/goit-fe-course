@@ -3,6 +3,15 @@
     outline: 2px solid red;
 }
 */
+html {
+    box-sizing: border-box;
+    }
+    
+    *,
+    *::before,
+    *::after {
+    box-sizing: inherit;
+    }
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +29,7 @@
 }
 .header__nav-item {
     display: inline-block;
-    padding: 5px 40px;
+    /*padding: 5px 40px;*/
     font-size: 16px;
 }
 
@@ -29,6 +38,8 @@
     color: #626262;
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
+    padding: 5px 40px;
 }
 .header__nav-link:hover {
     color: #03a9f4;
@@ -68,22 +79,25 @@
     max-width: 420px;
     height: 100%;
     max-height: 280px;
+    margin-bottom: 31px;
 
 }
 .blogposts__label {
-    padding-top: 31px;
+    /*padding-top: 31px;*/
     font-size: 14px;
     color: #b4ad9e;
     line-height: 1;
     text-transform: uppercase;
+    margin-bottom: 27px;
 }
 .blogposts__tittle {
-    padding-top: 27px;
+    /*padding-top: 27px;*/
     font-size: 30px;
     line-height: 1;
+    margin-bottom: 31px;
 }
 .blogposts__desc {
-    padding-top: 31px;
+    /*padding-top: 31px;*/
     font-size: 14px;
     line-height: 24px;
 }
