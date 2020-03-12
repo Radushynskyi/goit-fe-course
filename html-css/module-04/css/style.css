@@ -99,6 +99,7 @@ body {
     display: inline-block;
     margin-right: 35px;
     font-size: 16px;
+    float: left;
 }
 .header__nav-item:last-child {
     margin-right: 0;
@@ -113,6 +114,7 @@ body {
     text-decoration: none;
 }
 .header__nav-item:first-child .header__nav-link,
+.header__logo-link:hover,
 .header__nav-link:hover {
     color: #1abc9c;
 }
