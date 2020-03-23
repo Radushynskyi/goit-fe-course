@@ -192,11 +192,12 @@ body {
 /* -= New collection products =- */
 .products {
     background-color: #e9f0fd;
+    padding-top: 100px;
 }
 
 .products .h2 {
     /*padding-bottom: 80px;*/
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     margin-bottom: 80px;
     color: #515151;
     font-family: "Roboto", Helvetica, sans-serif;
@@ -257,12 +258,12 @@ body {
 }
 .product__actions-container {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 79px;
+    left: 35px;
     bottom: 0;
     right: 0;
-    width: 166px;
-    height: 107px;
+    /*width: 166px;
+    height: 107px;*/
     margin: auto;
 }
 .product__actions-button { 
@@ -279,7 +280,7 @@ body {
     margin-right: 0;
 }
 .product__actions-button:nth-child(4) {
-    width: 100%;
+    width: 166px;
     margin-top: 8px;
     background-color: #323232;
 }
