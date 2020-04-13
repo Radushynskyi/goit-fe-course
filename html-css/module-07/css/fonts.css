@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    src: url('../fonts/Wisdom\ Script\ AJ.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat-v14-latin-regular.woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat-v14-latin-700.woff');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/pt-serif-v11-latin-italic.woff');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto Slab Regular';
+    src: url('../fonts/roboto-slab-v11-latin-regular.woff');
+    font-style: normal;
+    font-weight: 400;
+}
