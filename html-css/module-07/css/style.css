@@ -27,10 +27,10 @@ html {
 }
 body {
     font-family: var(--ff-montserrat);
-    width: 100%;
+   /* width: 100%;
     max-width: 1400px;
     background-color: var(--body-color);
-    margin: auto;
+    margin: auto;*/
 }
 .visually-hidden {
     visibility: hidden;
@@ -42,7 +42,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 .section {
     padding: 120px 0;
@@ -65,7 +65,7 @@ body {
     text-align: center;
     margin-bottom: 80px;
     text-transform: none; 
-    display: block;
+    /*display: block;*/
 }
 .h3 {
     color: var(--black-color);
@@ -81,7 +81,7 @@ body {
     background-color: var(--white-color);
 }
 .header__inner {
-    height: 100%;
+    /*height: 100%;*/
     min-height: 65px;
     display: flex;
     flex-wrap: wrap;
@@ -142,24 +142,26 @@ body {
     background-color: transparent;
     max-width: 290px;
     display: block;
-    padding-top: 90px;
+    /*padding-top: 90px;*/
     position: relative;
     text-align: center;
 }
 .services__list-item::before {
-    position: absolute;
+    /*position: absolute;
     left: 50%;
     top: 0;
-    transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);*/
     display: block;
     content: '';
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     border-radius: 50%;
     border: 3px solid var(--gold-color);
     width: 72px;
     height: 72px;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 .services__list-item:nth-child(1)::before {
     background-image: url('../img/Icon-Basket.png');
@@ -189,7 +191,8 @@ body {
 }
 .contact-us__form {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
     align-items: center;
 }
 .contact-us__inputs-wrap {
@@ -197,35 +200,44 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 455px;
     height: 212px;
 }
 .contact-us__input,
 .contact-us__textarea {
-    width: 48.5%;
+    width: 100%;
     padding: 20px;
     border: 1px solid #cccccc;
     border-radius: 4px;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     outline: 0;
+    font-weight: 20px;
 }
 .contact-us__textarea {
-    height: 100%;
-    margin-left: 3%;
+    width: 455px;
+    height: 212px;
+    margin-left: 30px;
 }
 .contact-us__submit-btn {
     display: inline-block;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     width: 240px;
     height: 65px;
+    margin: 0 auto;
     margin-top: 30px;
     padding: 20px;
     border: 0;
     border-radius: 4px;
-    background-color: var(--gold-color);
-    color: var(--white-color);
+    background-color: var(--white-color);
+    color: var(--black-color);
     cursor: pointer;
     text-transform: uppercase;
+    transition: color 0.2s linear,
+                background-color 0.2s linear;
+}
+.contact-us__submit-btn:hover {
+    background-color: var(--gold-color);
+    color: var(--white-color);
 }
 [required]:not(:placeholder-shown):valid {
     outline: 2px solid #00ff00;
