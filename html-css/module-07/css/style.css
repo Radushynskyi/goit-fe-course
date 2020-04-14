@@ -87,6 +87,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
+    align-items: center;
 }
 .header__logo-link {
     color: var(--gold-color);
@@ -139,9 +140,9 @@ body {
     width: 100%;
 }
 .services__list-item {
-    background-color: transparent;
+    /*background-color: transparent;*/
     max-width: 290px;
-    display: block;
+    /*display: block;*/
     /*padding-top: 90px;*/
     position: relative;
     text-align: center;
@@ -201,7 +202,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 455px;
-    height: 212px;
+    /*height: 212px;*/
+}
+.contact-us__input:not(:last-child) {
+    margin-bottom: 20px;
 }
 .contact-us__input,
 .contact-us__textarea {
