@@ -1,0 +1,194 @@
+:root {
+    --ff-montserrat: 'Montserrat', Helvetica, sans-serif;
+    --ff-roboto: 'Roboto', Helvetica, sans-serif;
+    --black-color: #333333;
+    --white-color: #ffffff;
+    --red-color: #ff4e50;
+}
+body{
+    font-family: var(--ff-montserrat);
+}
+.container {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+.h2 {
+    margin: auto;
+    color: var(--black-color);
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 259px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 19px;
+}
+.header__inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.header__logo {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 1;
+}
+.header__log-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 115px;
+}
+.header__log-link {
+    display: block;
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 20px 10px;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 21px;
+    transition: 0.35s;
+}
+.header__log-link:hover {
+    border-color: var(--white-color);
+}
+.after__head {
+    position: relative;
+    min-height: 100vh;
+    padding: 229px 0 139px;
+    box-sizing: border-box;
+    background-image: url('../img/Vector_Smart_Object.png');
+    background-position: center;
+    background-size: cover;
+}
+.after__head-title {
+    max-width: 276px;
+    color: var(--white-color);
+    font-size: 30px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 19px;
+}
+.after__head_sub-title {
+    max-width: 220px;
+    margin: auto;
+    color: var(--white-color);
+    font-family: var(--ff-roboto);
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.btn-wrap {
+    text-align: center;
+}
+.btn {
+    padding: 13px  25px;
+    color: var(--red-color);
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid var(--red-color);
+    border-radius: 28px;
+    background-color: transparent;
+    transition: 0.35s;
+}
+.btn:hover {
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+.holiday-partners {
+    padding: 68px 0 60px 0;
+}
+.holiday-partners__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.holiday-partner__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    margin-bottom: 28px;
+}
+.holiday-partner__avatar {
+    position: relative;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.holiday-partner__avatar-01 {
+    background-image: url('../img/Av_01.png');
+}
+.holiday-partner__avatar-02 {
+    background-image: url('../img/Av_02.png');
+}
+.holiday-partner__avatar-03 {
+    background-image: url('../img/Av_03.png');
+}
+.holiday-partner__avatar-04 {
+    background-image: url('../img/Av_04.png');
+}
+.holiday-partner__avatar::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid var(--white-color);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.holiday-partner__avatar-01::after {
+    background-image: url('../img/Ic_01.png');
+    background-color: var(--red-color);
+}
+.holiday-partner__avatar-02::after {
+    background-image: url('../img/Ic_02.png');
+    background-color: #1cd7ad;
+}
+.holiday-partner__avatar-03::after {
+    background-image: url('../img/Ic_03.png');
+    background-color: #ffa507;
+}
+.holiday-partner__avatar-04::after {
+    background-image: url('../img/Ic_04.png');
+    background-color: #4e73db;
+}
+.holiday-partner__name {
+    color: var(--black-color);
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+.holiday-partners__desc {
+    color: #666;
+    font-family: var(--ff-roboto);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
