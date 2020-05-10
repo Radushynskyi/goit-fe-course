@@ -29,7 +29,7 @@ body {
             box-sizing: border-box;    
 }
 
-.h2 {
+.section__title {
     color: var(--black-color);
     font-size: 30px;
     text-align: center;
@@ -40,7 +40,7 @@ body {
     padding-top: 45px;
 }
 
-.h2::after {
+.section__title::after {
     content: '';
     display: block;
     margin: 61px auto 50px;
@@ -49,7 +49,7 @@ body {
     background-color: var(--pink-color);
 }
 
-.h2__sub_title {
+.section__title-cursive {
     display: block;
     color: var(--black-color);
     font-size: 24px;
@@ -316,6 +316,7 @@ ul{
     text-align: center;
     line-height: 1.4;
     padding: 0px auto 91px;
+    margin: 0 auto;
 }
 
 .team__member-list {
